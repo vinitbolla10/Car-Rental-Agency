@@ -1,0 +1,29 @@
+{
+  "name": "car-rental-agency",
+  "version": "1.0.0",
+  "description": "Backend for Car Rental Agency using NodeJS and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinitbolla10/Car-Rental-Agency.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinitbolla10/Car-Rental-Agency/issues"
+  },
+  "homepage": "https://github.com/vinitbolla10/Car-Rental-Agency#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.12",
+    "nodemon": "^2.0.3"
+  }
+}
