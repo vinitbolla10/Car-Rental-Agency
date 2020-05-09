@@ -4,6 +4,8 @@ const compress = require("compression");
 const cors = require("cors");
 const helmet = require("helmet");
 const carRoutes = require("./routes/carRoutes");
+const customerRoutes = require('./routes/customerRoutes')
+const customerAuthRoutes = require('./routes/customerAuthRoutes');
 
 
 const app = express();
@@ -18,6 +20,8 @@ app.use(helmet());
 app.use(cors());
 
 app.use("/", carRoutes);
+app.use("/", customerRoutes);
+app.use("/", customerAuthRoutes);
 
 
 // Catch unauthorised errors
